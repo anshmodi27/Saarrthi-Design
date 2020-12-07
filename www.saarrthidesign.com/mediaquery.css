@@ -1,0 +1,314 @@
+@media only screen and (max-width:1920px){
+    .main_content{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+    }
+    .main_content h1{
+    color: white;
+    font-size: 100px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-left: -300px;
+    margin-top: -60px;
+    font-family: Edwardian Script ITC;
+    font-weight: lighter;
+    }
+    .logo{
+        height: 45px;
+        width: auto;
+        float: left;
+        margin-top: 15px;
+        margin-left: -60px;
+    }
+    .main_nav li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    .contact_form{
+        width: 30%;
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.308);
+    }
+}
+@media only screen and (max-width:998px){
+    .main_content{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+    }
+    .main_content h1{
+    color: white;
+    font-size: 65px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-top: -40px;
+    font-family: Edwardian Script ITC;
+    font-weight: lighter;
+    margin-left: -300px;
+    }
+    .logo{
+        height: 45px;
+        width: auto;
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .main_nav li{
+        display: inline-block;
+        list-style: none;
+         margin-top:15px;
+         margin-left: 40px;
+        margin-right: 30px;
+    }
+
+.process_sec .img3{
+    width: 80%;
+    height: auto;
+}
+    .About_sec p { 
+        padding: 24px 0px 35px 0px; 
+        font-size: 15px; 
+        color: ghostwhite; 
+        margin: 0px; 
+        font-family: 'Architects Daughter', cursive;
+        line-height: 25px; 
+        font-weight: lighter;
+        text-align: justify;
+        letter-spacing: 2px; 
+        word-spacing: 5px;
+        margin-top: 10px;
+        margin-right: 30px;
+        margin-left: 30px;
+        }
+    .contact{
+        padding: 50px;
+    }
+    .contact_form{
+        width: 50%;
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.308);
+    }
+}
+@media only screen and (max-width:768px){
+   body{
+       overflow-x: hidden;
+   }
+    .main_content{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 60%;
+    }
+    .main_content h1{
+    color: white;
+    font-size: 70px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    font-family: Edwardian Script ITC;
+    font-weight: lighter;
+    }
+    .logo{
+        height: 45px;
+        width: auto;
+        float: left;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .main_nav li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+    .btn{
+        display: inline-block;
+        padding: 10px 10px;
+        text-decoration: none;
+        border-radius: 50%;
+        font-size: 30px;
+        margin-left: 10px;
+        transition: background-color 0.2s,border 0.2s,color 0.2s;
+    }
+    .btn:hover{
+        font-size: 35px;
+        box-shadow:2px 4px 2px 2px rgb(0, 0, 0);
+        -ms-transform: scale(1); /* IE 9 */
+        -webkit-transform: scale(1); /* Safari 3-8 */
+        transform: scale(1); 
+        border-radius: 50%;
+    }
+    .main_nav{
+        display: none;
+    }
+    .mobile{
+        display: inline-block;
+        color: honeydew;
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    .main_nav{
+        float: left;
+    }
+    .main_nav li{
+        display: block;
+        margin-top: 10px;
+        /* margin-left: 410px; */
+        text-align: center;
+        background: rgba(83, 83, 83, 0.219);
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .About_sec p { 
+        padding: 20px 0px 40px 0px; 
+        font-size: 10px; 
+        color: ghostwhite; 
+        margin: 0px; 
+        font-family: 'Architects Daughter', cursive;
+        line-height: 25px; 
+        font-weight: lighter;
+        text-align: justify;
+        letter-spacing: 2px; 
+        word-spacing: 5px;
+        margin-top: 50px;
+        margin-right: 30px;
+        margin-left: 30px;
+        }
+    .About_sec h2 { 
+        font-size: 50px; 
+        margin-top: -60px;
+        }
+        .process_sec h2{
+        font-size: 50px; 
+        }
+        .back h2 {
+        font-size: 50px; 
+        }
+        .contact_form{
+            width: 80%;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.308);
+        }
+}
+            
+@media only screen and (max-width:480px){
+    .main_content{
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+    .main_content h1{
+        color: white;
+        font-size: 50px;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        margin-top: 30px;
+        margin-left: -90px;
+        font-family: Edwardian Script ITC;
+        font-weight: lighter;
+        }
+        .mobile{
+            display: inline-block;
+            color: honeydew;
+            float: right;
+            margin-top: 15px;
+            margin-right: 30px;
+            /* margin-left: 200px; */
+            /* position: absolute; */
+        }
+        .main_nav{
+            float: left;
+        }
+        .main_nav li{
+            display: block;
+            margin-top: 10px;
+            /* margin-left: 410px; */
+            text-align: center;
+            background: rgba(83, 83, 83, 0.219);
+            border-radius: 5px;
+            font-size: 20px;
+        }
+        .About_sec p { 
+            padding: 24px 0px 35px 0px; 
+            font-size: 10px; 
+            color: ghostwhite; 
+            margin: 0px; 
+            font-family: 'Architects Daughter', cursive;
+            line-height: 25px; 
+            font-weight: lighter;
+            text-align: justify;
+            /* letter-spacing: 2px; 
+            word-spacing: 5px; */
+            margin-top: -40px;
+            margin-right: 30px;
+            margin-left: 30px;
+            }
+            .About_sec {
+                height: 100vh;
+            }
+            .process_sec h2 { 
+                font-size: 40px; 
+                color: rgb(255, 255, 255); 
+                font-family: 'Caveat', cursive;
+                font-weight: 800; 
+                margin: 0px; 
+                text-transform: uppercase; 
+                line-height: 60px; 
+                letter-spacing: 20px; 
+            }
+            .About_sec h2 { 
+                font-size: 25px; 
+                color: rgb(196, 238, 236); 
+                font-family: 'Dancing Script', cursive;
+                font-weight: 400; 
+                margin: 0px; 
+                text-transform: uppercase; 
+                line-height: 60px;
+                letter-spacing: 4px; 
+                margin-top: -70px;
+                }
+            .process_sec .img3{
+                width: 90%;
+                height: auto;
+            }
+            .process_sec h2{
+                font-size: 25px; 
+                margin-top: -20px;
+            }
+            .back h2 {
+                font-size: 25px; 
+            }
+            .contact{
+                padding: 40px;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .container .contact_info .box .text{
+                display: flex;
+                margin-left: 20px;
+                font-size: 15px;
+                color: rgb(170, 166, 151);
+                flex-direction: column;
+                font-weight: 300px;
+            }
+            .container .contact_info .box .icon{
+                font-size: 10px;
+                margin-left: -100px;
+            }
+            .contact_form{
+                width: 80%;
+                padding: 40px;
+                background: rgba(0, 0, 0, 0.308);
+            }
+            .contact_form h2{
+                font-size: 20px;
+            }
+}

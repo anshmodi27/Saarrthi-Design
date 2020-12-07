@@ -1,0 +1,135 @@
+* { margin: 0px; padding: 0px; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+body { 
+	min-height: 200vh;
+	background: rgb(255, 255, 255);
+}
+
+nav{
+	background-color: black;
+	height: 80px;
+	width: 100%;
+}
+nav ul{
+	float: right;
+	margin-right: 35px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 50px;
+}
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+a:hover{
+	font-size: 30px;
+	color: goldenrod;
+	transition: 0.2s ease-in-out;
+}
+.logo { 
+	height: auto; 
+	max-width: 10%; 
+	vertical-align: middle; 
+	display: block; 
+	float: left; 
+	margin-left: 30px;
+	margin-top: 8px;
+	position: fixed;
+}
+.cbn{
+	font-size: 30px;
+	color: goldenrod;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+	.About_sec { padding: 115px 0px 88px 0px ; width: 100%; overflow: hidden;}
+	.About_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
+	.About_sec h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; letter-spacing: -0.4px; }
+	.About_sec p { padding: 24px 0px 35px 0px; font-size: 18px; color: #0a3d69; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 600;}
+	.About_sec .Line { border: dashed 2px crimson; height: 2px; width: 252px; margin: auto; }
+
+
+
+	.project_sec { padding: 115px 0px 88px 0px ; width: 100%; overflow: hidden;  background-color:rgb(126, 123, 123);}
+	.project_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
+	.project_sec h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; letter-spacing: -0.4px; }
+	.project_sec .img2{
+		height: 160px;
+		width: 160px;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: ;
+		margin: 0 50px;
+		border-radius: 10px;
+		border: 6px white;
+		padding: 4px;
+}
+	  
+.project_sec .img2:hover {
+		box-shadow:2px 4px 2px 2px goldenrod;
+		-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5); 
+border-radius: 50%;
+	  }
+	  .project_sec  li{
+		height: 200px;
+		width: 200px;
+		text-align: center;
+		border-radius: 5%;
+		background-color: transparent;
+		margin: 20px 70px 50px;
+		display: inline-block;
+		color: white;
+		position: relative;
+	}
+
+	/* <<< Services Section >>> */
+	.Services_sec{ padding: 114px 0px 90px 0px ; width: 100%; overflow: hidden;top center no-repeat; background-size: cover; background-color: rgb(126, 123, 123); }
+	.Services_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
+	.Services_sec h2 { font-size: 56px; color: rgb(0, 0, 0); font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
+	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 30px; color: #043c6d; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
+	.Services_sec .Line { border: dashed 2px crimson; height: 2px; width: 252px; margin: auto; }
+
+
+		/* <<< Get Section >>> */
+		.Get_sec { width: 100%; overflow: hidden;top center no-repeat; background-size: cover;  background-color: rgb(126, 123, 123);}
+		.Get_sec .Mid { padding: 76px 0px 95px 0px; max-width: 1100px; margin: auto; overflow: hidden; }
+		.Get_sec .Rightside { padding-top: 12px; width: 48.18%; float: right;}
+		.Get_sec .Rightside h3 { padding-bottom: 44px; font-size: 46px; color: black; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform:uppercase; line-height: 46px; }
+		.Get_sec .Rightside address { padding: 0px 0px 27px 65px; margin-left: 3px; font-size: 14px; color: #0e378a; font-family: 'Open Sans', sans-serif; font-weight: 400; font-style: normal; background: url(location-icn.png) left 4px no-repeat; line-height: 24px;  }
+		.Get_sec .Rightside address.Number {  padding: 0px 0px 27px 65px; margin-left: 3px; font-size: 14px; color: #0e378a; font-family: 'Open Sans', sans-serif; font-weight: 400; font-style: normal;background: url(phone-icn.png) left 5px no-repeat; line-height: 24px;}
+		.Get_sec .Rightside address.Email { padding: 0px 0px 27px 65px; margin-left: 3px; font-size: 14px; color: #0e378a; font-family: 'Open Sans', sans-serif; font-weight: 400; font-style: normal; margin-left: 4px; background: url(mail-icn.png) left 0px no-repeat; line-height: 24px;}
+		.Get_sec .Rightside address.Number a { text-decoration: none; color: whitesmoke; }
+		.Get_sec .Rightside address.Number a:Hover { color: #0e378a; font-size: large;}
+		.Get_sec .Rightside address a { text-decoration: none; color: whitesmoke; }
+		.Get_sec .Rightside address a:Hover { color: #0e378a; font-size: large;}
+		.Get_sec .Rightside address.Email a { text-decoration: none; color: whitesmoke; }
+		.Get_sec .Rightside address.Email a:Hover {color: #0e378a; font-size: large;}
+		.Get_sec .Rightside ul { list-style: none; margin: 0px; padding: 27px 0px 0px 3px; }
+		.Get_sec .Rightside li { float: left; padding: 0px; margin: 0px  22px 0px 0px; }
+		.Get_sec .Rightside li a { text-decoration: none; }
+
+		/* <<< footer >>> */
+		footer { overflow: hidden; width: 100%; text-align: center; background: rgba(0, 0, 0, 0.719); }
+		footer .Cntr { padding:  28px 0px; max-width: 1100px; margin: auto;}
+		footer .Cntr p { padding: 0px; font-size: 15px; color: #a9abad; font-family:'Open Sans'; margin: 0px; }
+		footer .Cntr a { color: #a9abad; text-decoration: none; }
+		footer .Cntr a:hover { color: #fff; }
+
+
+		
+	

@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    color: white;
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255)) ;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    background-image:url(a2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.clearfix::after{
+    content: '.';
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    background-image:linear-gradient(rgba(15, 20, 68, 0.329),rgba(0, 0, 0, 0.301));
+    border-radius: 10px;
+    box-shadow: 0 10px linear-gradient(rgba(15, 20, 68, 0.329),rgba(0, 0, 0, 0.301));
+}
+.main_nav{
+    float: right;
+    margin-top: 15px;
+}
+.main_nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+}
+.main_nav li a{
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 90%;
+    font-family: consolas;
+    font-weight: 100px;
+}
+.main_nav li a:hover{
+	font-size: 30px;
+	color: goldenrod;
+	transition: 0.3s ease-in-out;
+}
+.main_content{
+    max-width: 1180px;
+    position: absolute;
+    top: 40%;
+    left: 53%;
+}
+.main_content h1{
+    color: white;
+    font-size: 110px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-family: Edwardian Script ITC;
+    font-weight: lighter;
+}
+.main_content span{
+    font-size: 1em; 
+    font-family: Edwardian Script ITC;
+    color: rgb(255, 251, 0);
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-left: 70px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+.btn_full{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+.btn_more{
+    background-color: transparent;
+    color: rgb(255, 250, 250);
+    margin-right: 15px;
+}
+.btn:hover{
+    font-size: 35px;
+    box-shadow:2px 4px 2px 2px rgb(0, 0, 0);
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+    border-radius: 50%;
+}
+.mobile{
+    display: none;
+}
+.down{
+    animation: updown 1s;
+}
+@keyframes updown{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+     }
+     100% {
+        opacity: 1;
+        transform: translateY(0);
+     }
+}
+
+.About_sec { 
+    padding-top: 50px;
+    width: 100%; 
+    overflow: hidden;
+    background-image:linear-gradient(rgba(68, 107, 50, 0.329),rgb(0, 0, 0)) ,url(a3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+	.About_sec .Center { 
+        max-width: 1100px; 
+        margin: auto; 
+        overflow: hidden; 
+        text-align: center; 
+    }
+	.About_sec h2 { 
+        font-size: 70px; 
+        color: rgb(196, 238, 236); 
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400; 
+        margin: 0px; 
+        text-transform: uppercase; 
+        line-height: 60px;
+        letter-spacing: 4px; 
+        }
+	.About_sec p { 
+        padding: 24px 0px 35px 0px; 
+        font-size: 20px; 
+        color: ghostwhite; 
+        margin: 0px; 
+        font-family: 'Architects Daughter', cursive;
+        line-height: 25px; 
+        font-weight: lighter;
+        text-align: justify;
+        letter-spacing: 2px; 
+        word-spacing: 5px;
+        margin-top: 10px;
+        }
+        .process_sec{
+            padding: 115px 0px 88px 0px ;
+            width: 100%; 
+            overflow: hidden; 
+            background-size: cover;
+            background-image:linear-gradient(rgba(20, 90, 148, 0.329),rgb(0, 0, 0)) ,url(a7.jpg);
+        }
+        .process_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
+        .process_sec h2 { 
+            font-size: 70px; 
+            color: rgb(255, 255, 255); 
+            font-family: 'Caveat', cursive;
+            font-weight: 800; 
+            margin: 0px; 
+            text-transform: uppercase; 
+            line-height: 60px; 
+            letter-spacing: 20px; 
+        }
+        .process_sec .img3{
+            width: 100%;
+            height: auto;
+        }
+       
+        section{
+            background-image:linear-gradient(rgba(46, 49, 75, 0.329),rgba(50, 182, 164, 0.301)) ,url(a3.jpg);
+        }
+        .contact{
+            position: relative;
+            min-height: 100vh;
+            padding: 80px ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .contact .content{
+            max-width: 880px;
+            text-align: center;
+        }
+        .contact .content h2{
+            font-size: 36px;
+            font-weight: 500px;
+        }
+        .contact .content p{
+            font-weight: 300;
+            color: white;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container .contact_info{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .contact_info .box{
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        .container .contact_info .box .icon{
+            min-width: 50px;
+            height: 50px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: black;
+            font-size: 15px;
+        }
+        .container .contact_info .box .text{
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            flex-direction: column;
+            font-weight: 800px;
+        }
+        .container .contact_info .box .text a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        .container .contact_info .box .text h3{
+            font-weight: 500px;
+            color: rgb(0, 0, 0);
+        }
+        .contact_form{
+            width: 40%;
+            padding: 40px;
+           border-radius: 20px;
+           background: rgba(0, 0, 0, 0.308);
+        }
+        .contact_form h2{
+            font-size: 40px;
+            color: rgb(255, 255, 255);
+            font-weight: 500px;
+            font-family: consolas;
+            font-weight: lighter;
+        }
+        .contact_form .input_box{
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .contact_form .input_box input,
+        .contact_form .input_box textarea{
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            font-weight: bolder;
+            margin: 10px 0;
+            border: none;
+            background:transparent;
+            border-bottom: 2px solid rgb(224, 216, 216);
+            outline: none;
+            color: rgb(204, 107, 28);
+            resize: none;
+        }
+        .contact_form .input_box select{
+           height: 30px;
+           border-radius: 20px;
+           background: rgba(0, 0, 0, 0.801);
+           color: cornsilk;
+        }
+        .contact_form .input_box select option{
+           background: rgb(0, 0, 0);
+           color: cornsilk;
+        }
+        .contact_form .input_box span{
+            left: 0;
+            font-size: 16px;
+            padding: 5px 0;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: rgb(255, 255, 255);
+        }
+        .contact_form input[type="submit"]{
+            width: 100px;
+            background: rgb(73, 71, 71);
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+           border-radius: 20px;
+           font-size: 18px;
+            color: whitesmoke;
+        }
+        .back h2 { 
+            font-size: 70px; 
+            color: rgb(255, 255, 255); 
+            font-family: 'Caveat', cursive;
+            letter-spacing: 9px;
+            font-weight: 800; 
+            margin: 0px; 
+            text-transform: uppercase; 
+            line-height: 60px; 
+            margin-bottom: 40px;
+            margin-top: 30px;
+            text-align: center; 
+        }
